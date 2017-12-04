@@ -41,5 +41,16 @@ namespace Ass04
             this.Diameter = diameter;
             this.Mass = mass;
         }
+
+
+        // Constructors -----------------------------------------------
+        public Planet(string name, double diameter)
+        {
+            this.Name = name;
+            this.Diameter = diameter;
+         
+        }
+
+
     }
 }
